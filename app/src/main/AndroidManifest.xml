@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.android.fcf">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:replace="android:appComponentFactory"
+        android:appComponentFactory="whateverString">
+
+        <activity
+            android:name=".TipListActivity"
+            android:label="@string/title_tip_list"
+            android:parentActivityName=".Menu"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.android.fcf.Menu" />
+        </activity>
+        <activity
+            android:name=".TipDetailActivity"
+            android:label="@string/title_tip_detail"
+            android:parentActivityName=".TipListActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.android.fcf.TipListActivity" />
+        </activity>
+        <activity
+            android:name=".RecipeDetails"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RecipeList"
+            android:parentActivityName=".Menu"
+            android:label="Recipes"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateHidden"/>
+        <activity
+            android:name=".Feedback"
+            android:label="Send Feedback"
+            android:parentActivityName=".Menu"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".About"
+            android:label="About Us"
+            android:parentActivityName=".Menu"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Terms"
+            android:label="Terms and Conditions"
+            android:parentActivityName=".Upload"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Upload"
+            android:label="Upload your own recipe"
+            android:parentActivityName=".Menu"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Waste"
+            android:label="Waste No More"
+            android:parentActivityName=".Menu"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Sweet"
+            android:label="Sweet Tooth"
+            android:parentActivityName=".Menu"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Snack"
+            android:label="Snack That!"
+            android:parentActivityName=".Menu"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Quick"
+            android:label="Feed Them Quick!"
+            android:parentActivityName=".Menu"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Healthy"
+            android:label="Healthy &amp; Tasty!"
+            android:parentActivityName=".Menu"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Meal"
+            android:label="Meal&apos;icious"
+            android:parentActivityName=".Menu"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Tour"
+            android:label="Tour de&apos; World"
+            android:parentActivityName=".Menu"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Budget"
+            android:label="Budget Bites"
+            android:parentActivityName=".Menu"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Menu"
+            android:label="@string/title_activity_menu"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

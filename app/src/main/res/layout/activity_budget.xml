@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Budget">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <!--<SearchView-->
+            <!--android:id="@+id/budg_search"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginBottom="10dp"-->
+            <!--android:inputType="text"-->
+            <!--android:queryHint="Search for a recipe&#8230;"-->
+            <!--android:background="#efefef">-->
+            <!--</SearchView>-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/budget_intro"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:paddingRight="20dp"-->
+            <!--android:text="Select your budget:"-->
+            <!--android:textColor="#000000"-->
+            <!--android:textSize="18sp" />-->
+
+            <!--<Spinner-->
+            <!--android:id="@+id/budget_picker"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content">-->
+            <!--</Spinner>-->
+
+            <!--<ListView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="@dimen/item_width"-->
+            <!--android:id="@+id/lv1"-->
+            <!--android:divider="#ad5"-->
+            <!--android:dividerHeight="2dp"/>-->
+            <Button
+                android:id="@+id/show_recipes_budg"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:backgroundTint="@color/colorPrimary"
+                android:text="Show Recipes"
+                android:textColor="#ffffff"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,50 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.android.fcf.Menu">
+
+    <!--<item-->
+        <!--android:id="@+id/action_update"-->
+        <!--android:orderInCategory="99"-->
+        <!--android:title="My Profile"-->
+        <!--app:showAsAction="never" />-->
+
+    <item
+    android:id="@+id/action_bookmarks"
+    android:orderInCategory="100"
+    android:title="View Bookmarks"
+    app:showAsAction="never" />
+    <!--<item-->
+    <!--android:id="@+id/action_uploads"-->
+    <!--android:orderInCategory="101"-->
+    <!--android:title="My Uploads"-->
+    <!--app:showAsAction="never" />-->
+    <item
+        android:id="@+id/action_feedback"
+        android:orderInCategory="102"
+        android:title="@string/send_feedback"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/share_app"
+        android:icon="@drawable/share_icon"
+        android:orderInCategory="103"
+        android:title="@string/share_app"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/action_about"
+        android:orderInCategory="104"
+        android:title="@string/about"
+        app:showAsAction="never" />
+    <!--<item-->
+        <!--android:id="@+id/action_logout"-->
+        <!--android:orderInCategory="105"-->
+        <!--android:title="Log out"-->
+        <!--app:showAsAction="never" />-->
+    <item
+        android:id="@+id/action_exit"
+        android:orderInCategory="106"
+        android:title="@string/exit"
+        app:showAsAction="never" />
+
+</menu>

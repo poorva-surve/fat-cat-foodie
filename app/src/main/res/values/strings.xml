@@ -1,0 +1,174 @@
+<resources>
+    <string name="app_name">Fat Cat Foodie</string>
+
+    <!-- Strings related to login & register -->
+    <string name="title_activity_login">Log in to your account</string>
+    <string name="title_activity_register">Create your account</string>
+    <string name="action_register">Register</string>
+    <string name="action_register_short">Register</string>
+    <string name="prompt_email">E-mail</string>
+    <string name="prompt_password_login">Password</string>
+    <string name="prompt_password_register1">Set Password</string>
+    <string name="prompt_password_register2">Confirm Password</string>
+    <string name="action_sign_in">Log in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_unmatching_password">Passwords do not match</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="alphabets">abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="cityname">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="welcome">Welcome</string>
+    <string name="login_failed">Sorry, log in failed. Please check your credentials.</string>
+    <string name="invalid_username">Username invalid.</string>
+    <string name="invalid_password">Password invalid.</string>
+
+    <!--Strings for options menu-->
+    <string name="action_settings">Settings</string>
+    <string name="send_feedback">Send Feedback</string>
+    <string name="share_app">Share app</string>
+    <string name="about">About Us</string>
+    <string name="exit">Close app</string>
+
+
+    <!--Strings for food menu-->
+    <string name="title_activity_menu">Select a category</string>
+    <string name="in_your_fridge">\tWHAT\'S IN YOUR FRIDGE?!\n\n\tRecipes according to your ingredients</string>
+    <string name="fridge_desc">Recipes according to your ingredients</string>
+    <string name="tour_de_world">\tTOUR DE WORLD\n\n\tTry out different cuisines</string>
+    <string name="tour_desc">Try out different cuisines</string>
+    <string name="budget_bites">\tBUDGET BITES\n\n\tPocket friendly recipes</string>
+    <string name="budg_desc">Pocket friendly recipes</string>
+    <string name="feed_them_quick">\tFEED THEM QUICK!\n\n\tRecipes you can make within minutes</string>
+    <string name="feed_desc">Recipes you can make within minutes</string>
+    <string name="healthy_can_be_tasty">\tHEALTHY CAN BE TASTY!\n\n\tRecipes with minimal calories</string>
+    <string name="healthy_desc">Recipes with minimal calories</string>
+    <string name="meal_icious">\tMEAL\'ICIOUS\n\n\tMain course meal recipes</string>
+    <string name="meal_desc">Main course meal recipes</string>
+    <string name="snack_that">\tSNACK THAT!\n\n\tAppetizers &amp; easy snacks</string>
+    <string name="snack_desc">Appetizers &amp; easy snacks</string>
+    <string name="sweet_tooth">\tSWEET TOOTH\n\n\tDesserts &amp; Cakes</string>
+    <string name="sweet_desc">Desserts &amp; Cakes</string>
+    <string name="waste_no_more">\tWASTE NO MORE!\n\n\tUtilize leftover food with these unique recipes</string>
+    <string name="waste_desc">Utilize leftover food with these unique recipes</string>
+    <string name="decider">\tDECIDER\n\n\tStill confused?\nLet us decide what\'s best for you!</string>
+    <string name="decider_desc">Still confused?\nLet us decide what\'s best for you!</string>
+    <string name="tips_tricks">\tTIPS &amp; TRICKS</string>
+    <string name="upload">\tUPLOAD YOUR OWN RECIPE</string>
+
+    <string name="title_activity_decider">Decider</string>
+
+    <!--Strings for feedback form-->
+    <string name="title_activity_feedback">Give us your feedback</string>
+    <string name="fb_type">Please select the type of your feedback</string>
+    <string name="fb_title">Alright&#8230; Tell us what you think</string>
+    <string name="complaint">Complaint</string>
+    <string name="suggest">Suggestion</string>
+    <string name="review">Review</string>
+
+    <string name="title_activity_forgot_password">Forgot Password</string>
+
+    <string name="title_activity_about">About Us</string>
+    <string name="about_us"><b>\"There is no love sincere than the love of food&#8230;\"</b>
+        \n\nBut what if someday you have to cook your own food but have no idea how to?
+        \nDon\'t worry! You have an app that is developed just for foodies like you who love to eat, but learning to cook!!
+        \n\n<b>Fat Cat Foodie</b> is a unique recipe app that provides simple and
+        cost efficient food recipes which require minimal cooking skills.
+        Conveniently feed yourself without burning a hole in your pocket.
+        \n\n
+        Want to impress your friends and family with some great dishes? Fat Cat Foodie\'s here to help you!
+        You can view different types of recipes &amp; food options according to any
+            <b>cuisine, budget, or preparation time</b>.
+        \n\nAmateur cooks can <b>upload their own recipes</b> to be featured on our app and users can
+        also share their favorite recipes with friends and family.
+        \n\nWe also have other features for absolute beginners such as <b>quantity measurement guide</b>,
+        basic kitchen tips &amp; tricks etc. You can even view the <b>health value</b> of each recipe and keep your calorie intake in check!
+        \n\nNo more worries about surprise guest visits. With Fat Cat Foodie in your pocket,
+        you can easily prepare <b>instant snacks</b> for your guests&#8230;
+        or for a house party&#8230; or just to satisfy your hunger pangs!
+        And don\'t you throw away that leftover food after your satiated guests are gone!
+        Since we have for you some amazing ways to <b>re-utilize your excess food</b> and come up with yet another great dish!
+        \n\nCool, isn\'t it? So hop on this food-ride with Fat Cat Foodie and fall in love with cooking!!
+    </string>
+
+    <string name="title_tip_list">Tips &amp; Tricks</string>
+    <string name="title_tip_detail">Tip Detail</string>
+
+    <string name="title_activity_upload">Upload your own recipe</string>
+    <string name="upload_instructions">Don\'t just get inspired from our recipes! We would love to learn from you too!!
+    Have any signature recipe up your sleeve?
+        Please share it with us and we will make sure to get it featured on Fat Cat Foodie along with your credits!</string>
+    <string name="upload_terms">
+        • Your uploaded recipe won\'t get featured on the app immediately.
+        Once you submit it, it will undergo thorough inspection and accordingly decision would be made regarding the acceptance of the recipe.
+        You will be informed about the status of acceptance of your recipe through e-mail.\n\n
+        • No obscene language would be tolerated.\n\n
+        • If the recipe you submit is inspired or adapted from another recipe you found, make sure you mention the source.\n\n
+        • Any recipes discovered to be fraudulent will be deleted without any prior notice.\n\n
+        • By posting a recipe and accompanying content on Fat Cat Foodie,
+        you are representing to us that, to the best of your knowledge,
+        the recipe and the content does not infringe the rights of another,
+        and are granting to us permission to edit and publish the recipe
+        and the content on this app for others to use and copy free of charge.\n\n
+        • We reserve the right to remove a recipe from this app for any reason, including claims of copyright or trademark infringement.\n\n
+        • For any further queries, contact us on poorvadsurve@gmail.com\n\n
+        • That\'s it from our side! Happy Cooking!♥\n
+
+    </string>
+
+    <!--Tour de' world-->
+    <string name="tour_indian"><b>INDIAN ►</b></string>
+    <string name="tour_italian"><b>ITALIAN ►</b></string>
+    <string name="tour_asian"><b>ASIAN ►</b></string>
+    <string name="tour_thai"><b>THAI ►</b></string>
+    <string name="tour_mediterranean"><b>MEDITERRANEAN ►</b></string>
+    <string name="tour_continental"><b>CONTINENTAL ►</b></string>
+
+    <!--Menu introductions-->
+    <string name="fridge_intro">Select the ingredients you have and
+        we will display recipes which can be made just using your ingredients:</string>
+    <string name="fridge_hint">Basic ingredients such as salt, sugar, water etc. are
+        presumed to be generally available in every household and hence are not listed below</string>
+    <string name="tour_intro">Checkout exotic recipes from a wide range of cuisines&#8230;\n\n</string>
+    <string name="budget_intro">Less cash but much hunger?\n\nDon\'t worry, we\'ve got you covered!
+        \n\nHere we bring for you recipes approved by both- \nyour wallet and your tastebuds!\n\n</string>
+    <string name="quick_intro">Unexpected guests?\n\nHunger pangs out of control?
+        \n\nNeed to cook something real quick??\n\nCalm down!
+        \nThese recipes would be ready even sooner than your pizza gets delivered!\n</string>
+    <string name="snack_intro">For your brunch or your house party&#8230;
+        \nperfect for any occasion!
+        \n\nEasy and delicious appetizers sure to make them ask for more!</string>
+    <string name="meal_intro">The second best feeling in the world is eating to your heart\'s content.
+        \n\nThe first?\nEnjoying it with your people!
+        \n\nDelight your friends and family with a scrumptious meal &#8230;made by you!</string>
+    <string name="sweet_intro">STRESSED in your life? \nFlip it over &amp; you\'ll have DESSERTS in your life!
+        \n\nGo on&#8230; cheat your diet &amp; pamper yourself with these lipsmacking delicacies!
+        \n\nNobody says no to desserts!</string>
+    <string name="healthy_intro">Craving for yummy food but getting health conscious?
+        \nWho said healthy can\'t be tasty?!
+        \n\nHere are recipes which will lift up your mood but not your calories!</string>
+    <string name="waste_intro">So your guests have left and here you are.. thinking what to do with all that extra food!
+        \nWe\'ve all been there and we\'re here to your food\'s rescue!
+        \n\nTry these upcycling recipes and turn that leftover food into a new magical dish!</string>
+
+    <!--Logged in user-->
+    <string name="my_acct">My Profile</string>
+    <string name="bookmarks">Bookmarks</string>
+    <string name="uploaded">My uploaded recipes</string>
+    <string name="logout">Sign out</string>
+    <string name="title_activity_my_profile">My Profile</string>
+    <string name="title_activity_bookmarks">Bookmarks</string>
+    <string name="title_activity_myrecipes">My uploaded recipes</string>
+    <string name="title_activity_recipelist">Recipes</string>
+    <string name="title_activity_recipedetails">Recipe Details</string>
+    <string name="title_activity_login2">Sign in</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_recipemenu_list">Recipe Content</string>
+    <string name="title_recipemenu_detail">Recipe Menu Detail</string>
+
+
+</resources>

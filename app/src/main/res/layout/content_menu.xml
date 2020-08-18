@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Menu"
+    tools:showIn="@layout/activity_menu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!--<Button-->
+        <!--android:id="@+id/fridge"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="100dp"-->
+        <!--android:layout_margin="5dp"-->
+        <!--android:background="@mipmap/fridge1"-->
+        <!--android:gravity="start" />-->
+
+
+        <Button
+            android:id="@+id/tour"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:background="@mipmap/tour1"
+            android:gravity="start" />
+
+
+        <Button
+            android:id="@+id/budget"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:background="@mipmap/budget1"
+            android:gravity="start" />
+
+
+        <Button
+            android:id="@+id/quick"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:background="@mipmap/quick1"
+            android:gravity="start" />
+
+
+        <Button
+            android:id="@+id/snack"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:background="@mipmap/snacks1"
+            android:gravity="start" />
+
+        <Button
+            android:id="@+id/meal"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:background="@mipmap/meal1"
+            android:gravity="start" />
+
+
+        <Button
+            android:id="@+id/sweet"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:background="@mipmap/sweet1"
+            android:gravity="start"/>
+
+        <Button
+            android:id="@+id/healthy"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:background="@mipmap/healthy1"
+            android:gravity="start"/>
+
+
+        <Button
+            android:id="@+id/waste"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:background="@mipmap/leftovers1"
+            android:gravity="start" />
+
+
+        <!--<Button-->
+        <!--android:id="@+id/decider"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="100dp"-->
+        <!--android:layout_margin="5dp"-->
+        <!--android:background="@mipmap/decider1"-->
+        <!--android:gravity="start"/>-->
+
+
+        <Button
+            android:id="@+id/tips"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:background="@mipmap/tips1"
+            android:gravity="start" />
+
+
+        <Button
+            android:id="@+id/upload"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:background="@mipmap/upload1"
+            android:gravity="start"/>
+
+
+
+    </LinearLayout>
+
+
+
+</android.support.v4.widget.NestedScrollView>

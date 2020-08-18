@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "667677085859",
+    "firebase_url": "https://fat-cat-foodie-1998.firebaseio.com",
+    "project_id": "fat-cat-foodie-1998",
+    "storage_bucket": "fat-cat-foodie-1998.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:667677085859:android:e734d4f7a5cf7788",
+        "android_client_info": {
+          "package_name": "com.android.fcf"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "667677085859-6qrk5rc7ff0kqjm61ein2jmqj6hk349g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.android.fcf",
+            "certificate_hash": "9e1de6fdc1fb3608ca9899626bfeae47332fbd36"
+          }
+        },
+        {
+          "client_id": "667677085859-gtq2plo5f5m0rueqnc3m6cjp92s4885k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6ogmBCnQxZ-_aTLfYS3UB8sa-IlVKeSY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "667677085859-gtq2plo5f5m0rueqnc3m6cjp92s4885k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
